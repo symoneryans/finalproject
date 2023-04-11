@@ -325,6 +325,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411124903590",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:49:03.590Z",
+	"dcterms:modified": "2023-04-11T16:49:03.590Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411124903590#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411124903590#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[4]/lg/l[12]/placeName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "The line is the front of the barricade where most of the battles at the barricades took place\n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411124932711",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:49:32.711Z",
+	"dcterms:modified": "2023-04-11T16:49:32.711Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411124932711#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411124932711#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[8]/lg/l[6]/persName/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://en.wikipedia.org/wiki/Don_Juan",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -370,7 +527,8 @@
                         <l> We need a sign</l>
                         <l> To rally the people</l>
                         <l> To call them to arms</l>
-                        <l> To bring them in <placeName type="barricade">line</placeName>!</l>
+                        <l> To bring them in <placeName type="barricade">line<note type="annotation">The line is the front of the barricade where most of the battles at the barricades took place
+</note></placeName>!</l>
                         <l> <persName type="dramatic">Marius</persName>, you're late.</l>
                     </lg>
                 </sp>
@@ -406,7 +564,7 @@
                         <l> Is <persName type="dramatic">Marius</persName> in love at last?</l>
                         <l> I've never heard him `ooh' and `aah'</l>
                         <l> You talk of <name type="juneBattles">battles</name> to be won</l>
-                        <l> And here he comes like <persName type="historical">Don Ju-an</persName></l>
+                        <l> And here he comes like <persName type="historical"><ref target="https://en.wikipedia.org/wiki/Don_Juan">Don Ju-an</ref></persName></l>
                         <l> It's better than an <placeName>o-per-a</placeName>!</l>
                     </lg>
                 </sp>
