@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="song" corresp="#act2song15">
+                <head>"Red And Black" </head>
+                <byline> Symone Ryans</byline>
+                <sp>
+                    <speaker> <persName>MARIUS</persName></speaker>
+                    <lg>
+                        <l> There's a grief that can't be spoken.</l>
+                        <l> There's a pain goes on and on.</l>
+                        <l> Empty chairs at empty tables</l>
+                        <l> Now my friends are dead and gone.</l>
+
+                        <l> Here they talked of revolution.</l>
+                        <l> Here it was they lit the flame.</l>
+                        <l> Here they sang about `tomorrow'</l>
+                        <l> And tomorrow never came.</l>
+
+                        <l> From the table in the corner</l>
+                        <l> They could see a world reborn</l>
+                        <l> And they rose with voices ringing</l>
+                        <l> I can hear them now!</l>
+                        <l> The very words that they had sung</l>
+                        <l> Became their last communion</l>
+                        <l> On the lonely barricade at dawn.</l>
+
+                        <l> Oh my friends, my friends forgive me</l>
+
+
+                        <l> That I live and you are gone.</l>
+                        <l> There's a grief that can't be spoken.</l>
+                        <l> There's a pain goes on and on.</l>
+
+                        <l> Phantom faces at the window.</l>
+                        <l> Phantom shadows on the floor.</l>
+                        <l> Empty chairs at empty tables</l>
+                        <l> Where my friends will meet no more.</l>
+
+
+                        <l> Oh my friends, my friends, don't ask me</l>
+                        <l> What your sacrifice was for</l>
+                        <l> Empty chairs at empty tables</l>
+                        <l> Where my friend will sing no more.</l>
+                    </lg>
+                </sp>
+            </div>
+        </body>
+    </text>
+
+</TEI>

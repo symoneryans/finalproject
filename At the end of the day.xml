@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="song" corresp="#act1song4">
+            <head>"At the end of the day" </head>
+            <byline> Symone Ryans</byline>
+
+            <sp>
+               <speaker><persName type="Dramatic">THE POOR</persName></speaker>
+               <lg>
+                  <l>At the end of the day you're another day older</l>
+                  <l>And that's all you can say for the life of the <persName type="historicalRole">poor</persName></l>
+                  <l>It's a struggle, it's a <ref type="juneBattles">war</ref></l>
+                  <l> And there's nothing that anyone's giving</l>
+                  <l>One more day standing about, what is it for?</l>
+                  <l>One day less to be living.</l>
+
+                  <l>At the end of the day you're another day colder</l>
+                  <l> And the shirt on your back doesn't keep out the chill</l>
+                  <l>And the <persName type="historicalRole">righteous</persName> hurry past</l>
+                  <l>They don't hear the little ones crying</l>
+                  <l>And the winter is coming on fast, ready to kill</l>
+                  <l> One day nearer to dying!</l>
+
+                  <l> At the end of the day there's another day dawning</l>
+                  <l> And the sun in the morning is waiting to rise</l>
+                  <l>Like the waves crash on the sand</l>
+                  <l> Like a storm that'll break any second</l>
+                  <l>There's a hunger in the land</l>
+                  <l> There's a reckoning still to be reckoned and</l>
+                  <l> There's gonna be hell to pay</l>
+                  <l>At the end of the day!</l>
+               </lg>
+            </sp>
+
+
+            <sp>
+               <speaker><persName type="Dramatic"> FOREMAN</persName></speaker>
+               <lg>
+                  <l>At the end of the day you get nothing for nothing</l>
+                  <l>Sitting flat on your butt doesn't buy any bread</l>
+               </lg>
+            </sp>
+
+            <sp>
+               <speaker>
+                  <persName type="Dramatic">WORKER ONE</persName></speaker>
+               <lg>
+                  <l>There are children back at home</l>
+               </lg>
+            </sp>
+
+            <sp>
+               <speaker>
+                  <persName type="Dramatic">WORKERS ONE AND TWO</persName></speaker>
+               <lg>
+                  <l>And the children have got to be fed</l>
+               </lg>
+            </sp>
+
+            <sp>
+               <speaker><persName type="Dramatic"> WORKER TWO</persName></speaker>
+               <lg>
+                  <l>And you're lucky to be in a job</l>
+               </lg>
+            </sp>
+
+            <sp>
+               <speaker>
+                  <persName type="Dramatic">WOMAN</persName></speaker>
+               <lg>
+                  <l>And in a bed!</l>
+               </lg>
+            </sp>
+
+            <sp>
+               <speaker><persName type="Dramatic">WORKERS</persName></speaker>
+               <lg>
+                  <l>And we're counting our blessings!</l>
+               </lg>
+            </sp>
+
+
+         </div>
+      </body>
+
+   </text>
+</TEI>

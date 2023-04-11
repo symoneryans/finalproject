@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="song" corresp="#act1song16">
+                <head>"Do you hear the people sing" </head>
+                <byline> Symone Ryans</byline>
+                <sp>
+                    <speaker> <persName type="dramatic">ENJOLRAS</persName></speaker>
+                    <lg>
+                        <l> Do you hear the people sing?</l>
+                        <l> Singing a song of angry men?</l>
+                        <l> It is the music of a people</l>
+                        <l> Who will not be slaves again!</l>
+                        <l> When the beating of your heart</l>
+                        <l> Echoes the beating of the drums</l>
+                        <l> There is a life about to start</l>
+                        <l> When tomorrow comes!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker> <persName type="dramatic">COMBEFERRE</persName></speaker>
+                    <lg>
+                        <l> Will you join in our crusade?</l>
+                        <l> Who will be strong and stand with me?</l>
+                        <l> Beyond the <placeName type="juneRebellion">barricade</placeName></l>
+                        <l> Is there a world you long to see?</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker> <persName type="dramatic">COURFEYRAC</persName></speaker>
+                    <lg>
+                        <l> Then join in the fight</l>
+                        <l> That will give you the right to be free!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker> <persName type="dramatic">ALL</persName></speaker>
+                    <lg>
+                        <l> Do you hear the people sing?</l>
+                        <l> Singing a song of angry men?</l>
+                        <l> It is the music of a people</l>
+                        <l> Who will not be slaves again!</l>
+                        <l> When the beating of your heart</l>
+                        <l> Echoes the beating of the drums</l>
+                        <l> There is a life about to start</l>
+                        <l> When tomorrow comes!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker> <persName type="dramatic">FEUILLY</persName></speaker>
+                    <lg>
+                        <l> Will you give all you can give</l>
+                        <l> So that our banner may advance</l>
+                        <l> Some will fall and some will live</l>
+                        <l> Will you stand up and take your chance?</l>
+                        <l> The blood of the <ref>martyrs</ref></l>
+                        <l> Will water the meadows of <placeName>France</placeName>!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker> <persName type="dramatic">ALL</persName></speaker>
+                    <lg>
+                        <l>Do you hear the people sing? </l>
+                        <l> Singing a song of angry men?</l>
+                        <l> It is the music of a people</l>
+                        <l> Who will not be slaves again!</l>
+                        <l> When the beating of your heart</l>
+                        <l> Echoes the beating of the drums</l>
+                        <l> There is a life about to start</l>
+                        <l> When tomorrow comes!</l>
+                    </lg>
+                </sp>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

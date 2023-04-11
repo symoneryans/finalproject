@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="song" corresp="#act1song15">
+                <head>"Red And Black" </head>
+                <byline> Symone Ryans</byline>
+                <sp>
+                    <speaker> <persName type="dramatic">COMBEFERRE</persName></speaker>
+                    <lg>
+                        <l> At <placeName>Notre Dame</placeName> the sections are prepared!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic"> FEUILLY</persName></speaker>
+                    <lg>
+                        <l> At <placeName>rue de Bac</placeName> they're straining at the leash!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic"> COURFEYRAC</persName></speaker>
+                    <lg>
+                        <l> <orgName role="activist"> Students</orgName>, <persName type="historicalRole">workers</persName>, everyone</l>
+                        <l> There's a river on the run</l>
+                        <l>Like the flowing of the tide</l>
+                        <l><placeName>Paris</placeName> coming to our side!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ENJORAS </persName></speaker>
+                    <lg>
+                        <l> The time is near</l>
+                        <l>So near it's stirring the blood in their veins!</l>
+                        <l>And yet beware</l>
+                        <l>Don't let the wine go to your brains!</l>
+                        <l>For the <orgName type="military">army</orgName> we fight is a dangerous foe</l>
+                        <l> With the men and the arms that we never can match</l>
+                        <l> It is easy to sit here and swat 'em like flies</l>
+                        <l> But the <orgName type="military">national guard</orgName> will be harder to catch.</l>
+                        <l> We need a sign</l>
+                        <l> To rally the people</l>
+                        <l> To call them to arms</l>
+                        <l> To bring them in <placeName type="barricade">line</placeName>!</l>
+                        <l> <persName type="dramatic">Marius</persName>, you're late.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> JOLY </persName>
+                    </speaker>
+                    <lg>
+                        <l> What's wrong today?</l>
+                        <l> You look as if you've seen a ghost.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> GRANTAIRE </persName>
+                    </speaker>
+                    <lg>
+                        <l> Some wine and say what's going on!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> A ghost you say... a ghost maybe</l>
+                        <l> She was just like a ghost to me</l>
+                        <l> One minute there, and she was gone!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> GRANTAIRE </persName>
+                    </speaker>
+                    <lg>
+                        <l>I am agog!</l>
+                        <l> I am aghast!</l>
+                        <l> Is <persName type="dramatic">Marius</persName> in love at last?</l>
+                        <l> I've never heard him `ooh' and `aah'</l>
+                        <l> You talk of <name type="juneBattles">battles</name> to be won</l>
+                        <l> And here he comes like <persName type="historical">Don Ju-an</persName></l>
+                        <l> It's better than an <placeName>o-per-a</placeName>!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ENJORAS </persName></speaker>
+                    <lg>
+                        <l> It is time for us all</l>
+                        <l> To decide who we are</l>
+                        <l> Do we fight for the right</l>
+                        <l> To a night at the <placeName>opera</placeName> now?</l>
+                        <l> Have you asked of yourselves</l>
+                        <l>What's the price you might pay? </l>
+                        <l>Is it simply a game </l>
+                        <l> For rich young boys to play?</l>
+                        <l> The color of the world</l>
+                        <l> Is changing day by day...</l>
+                        <l>Red - the blood of angry men! </l>
+                        <l>Black - the dark of ages past!</l>
+                        <l>Red - a world about to dawn!</l>
+                        <l> Black - the night that ends at last!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> Had you been there tonight</l>
+                        <l> You might know how it feels</l>
+                        <l> To be struck to the bone</l>
+                        <l> In a moment of breathless delight!</l>
+                        <l> Had you been there tonight</l>
+                        <l>You might also have known</l>
+                        <l> How the world may be changed</l>
+                        <l> In just one burst of light!</l>
+                        <l> And what was right seems wrong</l>
+                        <l> And what was wrong seems right!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> GRANTAIRE </persName>
+                    </speaker>
+                    <lg>
+                        <l>Red...</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> I feel my soul on fire!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> GRANTAIRE </persName>
+                    </speaker>
+                    <lg>
+                        <l>Black...</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> My world if she's not there!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ALL </persName>
+                    </speaker>
+                    <lg>
+                        <l>Red...</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> The color of desire!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ALL </persName>
+                    </speaker>
+                    <lg>
+                        <l>Black...</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> MARIUS </persName></speaker>
+                    <lg>
+                        <l> The color of despair!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ENJORAS </persName></speaker>
+                    <lg>
+                        <l> <persName type="dramatic">Marius</persName>, you're no longer a child</l>
+                        <l> I do not doubt you mean it well</l>
+                        <l> But now there is a higher call.</l>
+                        <l> Who cares about your lonely soul?</l>
+                        <l> We strive toward a larger goal</l>
+                        <l> Our little lives don't count at all!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ALL </persName>
+                    </speaker>
+                    <lg>
+                        <l> Red - the blood of angry men!</l>
+                        <l> Black - the dark of ages past!</l>
+                        <l> Red - a world about to dawn!</l>
+                        <l> Black - the night that ends at last!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ENJORAS </persName></speaker>
+                    <lg>
+                        <l> Well, <persName type="dramatic">Courfeyrac</persName>, do we have all the guns?</l>
+                        <l> <persName type="dramatic">Feuilly</persName>, <persName type="dramatic">Combeferre</persName>, our time is running short.</l>
+                        <l> <persName> type="dramatic"Grantaire</persName>, put the bottle down!</l>
+                        <l> Do we have the guns we need?</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> GRANTAIRE </persName>
+                    </speaker>
+                    <lg>
+                        <l> Give me brandy on my breath</l>
+                        <l> And I'll breathe them all to death!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic"> COURFEYRAC</persName></speaker>
+                    <lg>
+                        <l> In <placeName>St. Antoine</placeName> they're with us to a man!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">COMBEFERRE</persName></speaker>
+                    <lg>
+                        <l> In <placeName>Notre Dame </placeName>they're tearing up the stones!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic"> FEUILLY</persName></speaker>
+                    <lg>
+                        <l> Twenty rifles good as new!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">GAVROCHE</persName></speaker>
+                    <lg>
+                        <l> Listen!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> JOLLY </persName>
+                    </speaker>
+                    <lg>
+                        <l> Twenty rounds for every man!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">GAVROCHE</persName></speaker>
+                    <lg>
+                        <l> Listen to me!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">JEAN PROUVAIRE</persName></speaker>
+                    <lg>
+                        <l> Double that in <placeName>Port St. Cloud</placeName>!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">GAVROCHE</persName></speaker>
+                    <lg>
+                        <l> Listen everybody!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">LESGLES</persName></speaker>
+                    <lg>
+                        <l> Seven guns in <placeName>St. Martin!</placeName></l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>
+                        <persName type="dramatic">GAVROCHE</persName></speaker>
+                    <lg>
+                        <l> <persName type="historical">General Lamarque</persName> is dead!</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><persName type="dramatic"> ENJORAS </persName></speaker>
+                    <lg>
+                        <l>
+                            <seg><persName type="historical">Lamarque</persName> is dead</seg>.</l>
+                        <l> <persName type="historical">Lamarque</persName>! His death is the hour of fate.</l>
+                        <l> The people's man.</l>
+                        <l> His death is the sign we await!</l>
+                        <l> On his funeral day they will honor his name.</l>
+                        <l> It's a rallying cry that will reach every ear!</l>
+                        <l> In the death of<persName type="historical"> Lamarque</persName> we will kindle the flame</l>
+                        <l> They will see that the day of salvation is near!</l>
+                        <l> The time is near!</l>
+                        <l> Let us welcome it gladly with courage and cheer</l>
+                        <l> Let us take to the streets with no doubt in our hearts</l>
+                        <l> But a jubilant shout</l>
+                        <l> They will come one and all</l>
+                        <l> They will come when we call!</l>
+                    </lg>
+                </sp>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="song" corresp="#act1song">
+            <head>"Look down" </head>
+            <byline> Symone Ryans</byline>
+            <sp>
+              <speaker> BEGGARS</speaker>
+            <lg>
+               <l>Look down and see the <persName type="historicalRole">beggars</persName> at your feet</l>
+            <l>Look down and show some mercy if you can</l>
+           <l> Look down and see the sweepings of the street</l>
+            <l>Look down, look down,</l>
+           <l> Upon your fellow man!</l></lg></sp>
+            
+            <sp>
+               <speaker><persName type="dramatic">GAVROCHE</persName></speaker>
+            <lg><l>'Ow do you do? My name's <persName>Gavroche</persName>.</l>
+           <l> These are my people. Here's my patch.</l>
+            <l>Not much to look at, nothing posh</l>
+            <l>Nothing that you'd call up to scratch.</l>
+            <l>This is my <placeName>school</placeName>, my high society</l>
+            <l>Here in the <ref type="placeTyep">slums</ref> of <placeName>Saint Michele</placeName></l>
+           <l> We live on crumbs of humble piety</l>
+            <l>Tough on the teeth, but what the hell!</l>
+           <l> Think you're poor?</l>
+            <l>Think you're free?</l>
+            <l>Follow me! Follow me!</l>
+            </lg></sp>
+            
+          <sp>  
+             <speaker>BEGGARS</speaker>
+           <lg> <l>Look down and show some mercy if you can</l>
+            <l>Look down, look down, upon your fellow man!</l></lg>
+            </sp>
+            
+            
+           
+            
+         <sp><speaker>   BEGGARS</speaker>
+           <lg> <l>When's it gonna end?</l>
+            <l>When we gonna live?</l>
+            <l>Something's gotta happen now or</l>
+           <l> Something's gonna give</l>
+           <l> It'll come, it'll come, it'll come</l>
+           <l> It'll come, it'll come, it'll come</l></lg></sp>
+            
+           <sp> <speaker>ENJOLRAS</speaker>
+           <lg> <l>Where the leaders of the land?</l>
+            <l>Where are the swells who run this show?</l></lg></sp>
+            
+            <sp><speaker>MARIUS</speaker>
+            <lg><l>Only one man - and that's <persName type="historical">Lamarque</persName></l>
+          <l>  Speaks for these people here below</l></lg></sp>
+            
+            <sp><speaker>BEGGARS</speaker>
+            <lg><l>See our children fed</l>
+            <l>Help us in our shame</l>
+            <l>Something for a crust of bread</l>
+            <l>In Holy Jesus' name</l></lg></sp>
+            
+            <sp><speaker>URCHIN</speaker>
+           <lg><l> In the Lord's Holy name.</l></lg></sp>
+            
+            <sp><speaker>BEGGARS</speaker>
+           <lg><l> In his name, in his name, in his name...</l></lg></sp>
+            
+            <sp><speaker>MARIUS</speaker>
+            <lg><l><persName>Lamarque</persName> is ill and fading fast!</l>
+            <l>Won't last the week out, so they say.</l></lg></sp>
+            
+          <sp>  <speaker>ENJOLRAS</speaker>
+           <lg> <l>With all the anger in the land</l>
+            <l>How long before the judgement day?</l>
+           <l> Before we cut the fat ones down to size?</l>
+           <l> Before the <placeName type="juneRebillion">barricades</placeName> arise?</l></lg></sp>
+            
+   
+            
+            <sp><speaker>BEGGARS</speaker>
+            <lg><l>Look down and show some mercy if you can</l>
+           <l> Look down, look down upon your fellow man!</l></lg> </sp>
+         </div>
+      </body>
+  </text>
+</TEI>
