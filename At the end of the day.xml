@@ -90,6 +90,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/At%20the%20end%20of%20the%20day.xml?note_annotation_20230411123933055",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:39:33.055Z",
+	"dcterms:modified": "2023-04-11T16:39:33.055Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/At%20the%20end%20of%20the%20day.xml?note_annotation_20230411123933055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/At%20the%20end%20of%20the%20day.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/At%20the%20end%20of%20the%20day.xml?note_annotation_20230411123933055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp/lg/l[9]/persName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "These are a group of people mainly the middle to the upper class. They often used their religion to look down upon the lower class and ignore the struggles they were going through during this time of war. The use of religion within this group clouds their moral compass and allows them to pick and choose their calling of good deeds when they want to do them and who deserves their kindness\n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -110,7 +189,8 @@
 
                   <l>At the end of the day you're another day colder</l>
                   <l> And the shirt on your back doesn't keep out the chill</l>
-                  <l>And the <persName type="historicalRole">righteous</persName> hurry past</l>
+                  <l>And the <persName type="historicalRole">righteous<note type="annotation">These are a group of people mainly the middle to the upper class. They often used their religion to look down upon the lower class and ignore the struggles they were going through during this time of war. The use of religion within this group clouds their moral compass and allows them to pick and choose their calling of good deeds when they want to do them and who deserves their kindness
+</note></persName> hurry past</l>
                   <l>They don't hear the little ones crying</l>
                   <l>And the winter is coming on fast, ready to kill</l>
                   <l> One day nearer to dying!</l>
