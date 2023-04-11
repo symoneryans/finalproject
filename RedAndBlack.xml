@@ -638,6 +638,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411125601535",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:56:01.535Z",
+	"dcterms:modified": "2023-04-11T16:56:01.535Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411125601535#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?note_annotation_20230411125601535#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[31]/lg/l/placeName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "Rue de Saint Martin is the focal point of the barricade, where there were three barricades protecting the “abc” cafe . The abc cafe is the headquarters for the rebellion \n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411125629547",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:56:29.547Z",
+	"dcterms:modified": "2023-04-11T16:56:29.547Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411125629547#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/RedAndBlack.xml?link_annotation_20230411125629547#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[31]/lg/l/placeName/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://leftinparis.org/places/rue-de-saint-martin/",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -908,7 +1065,8 @@
                     <speaker>
                         <persName type="dramatic">LESGLES</persName></speaker>
                     <lg>
-                        <l> Seven guns in <placeName>St. Martin!</placeName></l>
+                        <l> Seven guns in <placeName><ref target="https://leftinparis.org/places/rue-de-saint-martin/">St. Martin</ref><note type="annotation">Rue de Saint Martin is the focal point of the barricade, where there were three barricades protecting the “abc” cafe . The abc cafe is the headquarters for the rebellion 
+</note>!</placeName></l>
                     </lg>
                 </sp>
                 <sp>
