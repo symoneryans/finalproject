@@ -403,6 +403,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123548409",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:35:48.409Z",
+	"dcterms:modified": "2023-04-11T16:35:48.409Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123548409#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123548409#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[11]/lg/l[4]/placeName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "The barricades are the setting of most of the show's second act. They were built by the students that led the rebellion. This aimed to protect certain areas and create vantage points to fight off the police and army."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123624016",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-11T16:36:24.016Z",
+	"dcterms:modified": "2023-04-11T16:36:24.016Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/symoneryans",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Symone Ryans"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123624016#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/symoneryans/finalproject/main/look%20down.xml?note_annotation_20230411123624016#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/sp[2]/lg/l[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "The slums are not as important but they are referring to a more run-down area that the members of the rebellion inhabit\n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
@@ -427,7 +585,8 @@
             <l>Not much to look at, nothing posh</l>
             <l>Nothing that you'd call up to scratch.</l>
             <l>This is my <placeName>school</placeName>, my high society</l>
-            <l>Here in the <ref type="placeTyep">slums</ref> of <placeName><ref target="https://lesmiserables.fandom.com/wiki/The_Caf%C3%A9_Musain">Saint Michele</ref><note type="annotation">Saint Michele is the place where the “ABC” cafe is located 
+            <l>Here in the <ref type="placeTyep">slums</ref> <note type="annotation">The slums are not as important but they are referring to a more run-down area that the members of the rebellion inhabit
+</note>of <placeName><ref target="https://lesmiserables.fandom.com/wiki/The_Caf%C3%A9_Musain">Saint Michele</ref><note type="annotation">Saint Michele is the place where the “ABC” cafe is located 
 </note></placeName></l>
            <l> We live on crumbs of humble piety</l>
             <l>Tough on the teeth, but what the hell!</l>
@@ -481,7 +640,7 @@
            <lg> <l>With all the anger in the land</l>
             <l>How long before the judgement day?</l>
            <l> Before we cut the fat ones down to size?</l>
-           <l> Before the <placeName type="juneRebillion">barricades</placeName> arise?</l></lg></sp>
+           <l> Before the <placeName type="juneRebillion">barricades<note>The barricades are the setting of most of the show's second act. They were built by the students that led the rebellion. This aimed to protect certain areas and create vantage points to fight off the police and army.</note></placeName> arise?</l></lg></sp>
             
    
             
